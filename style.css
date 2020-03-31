@@ -2,6 +2,7 @@
 body {font-size:16px; font-family:'Sen', sans-serif; margin:0; padding:0; position:relative;}
 h1 {letter-spacing:1.5px; font-weight:400; font-size:2.4em; text-align:center; }
 p {font-size:15px; color:#555; margin-top:8px;}
+b {background-color:#fffd5a;}
 
 #timeline-content {}
 
@@ -23,6 +24,7 @@ p {font-size:15px; color:#555; margin-top:8px;}
 .timeline .event:after {box-shadow:0 0 0 8px white; left:-34px; background:#fff; border-radius:50%; height:22px; width:22px; content:"☯︎"; top:0px; font-size:30px;}
 .timeline .event.w:after {content:"☺︎"; color:green; left:-32px;}
 .timeline .event.l:after {content:"☹︎"; color:red; left:-32px;}
+.timeline .event.n:after {content:"☉"; color:orange; left:-36px;}
 
 
 .swap-on-hover {position:relative; margin:0 ; max-width:400px; }
